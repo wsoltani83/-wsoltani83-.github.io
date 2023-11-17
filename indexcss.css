@@ -1,0 +1,30 @@
+body {
+    background-color: #c8ad7f; /* beige */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Choisissez la police de caractères souhaitée */
+}
+.encadre {
+    border: 2px solid #333; /* Couleur de la bordure */
+    padding: 10px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.encadre-droit {
+    margin-left: 600px; /* Espacement entre les encadrés à droite */
+    left: auto;
+    right: 600px;
+}
+
+.titres-droit {
+    position: fixed;
+    top: 10px;
+    right: 30px; /* Ajustez la position horizontale des titres */
+    text-align: right;
+    display: flex; /* Utiliser flexbox pour aligner les titres horizontalement */
+}
+
+.titres-droit h2 {
+    margin-left: 20px; /* Espacement entre les titres */
+}
