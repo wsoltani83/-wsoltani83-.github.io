@@ -30,7 +30,7 @@ footer :any-link {
 }
 
 .reserver button {
-  background-color: #c4992d;
+  background-color: rgb(35, 45, 101);
   margin-top: 1.5rem;
   color: rgb(255, 255, 255);
   font-weight: 300;
@@ -43,6 +43,7 @@ footer :any-link {
   margin-top: 1rem;
   cursor: pointer;
   transition: transform 200ms;
+  align-items: center;
 }
 
 .reserver button:hover {
@@ -68,6 +69,12 @@ footer :any-link {
   margin-top: 1rem;
   cursor: pointer;
   transition: transform 200ms;
+}
+
+.reserver {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 header {

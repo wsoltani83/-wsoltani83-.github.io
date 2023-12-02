@@ -1,7 +1,7 @@
 
 .reserver button {
     //background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-    background-color:#c4992d;
+    background-color:rgb(35, 45, 101);
     margin-top: 1.5rem;
     color: rgb(255, 255, 255);
     font-weight: 300;
@@ -14,6 +14,7 @@
     margin-top: 1rem;
     cursor: pointer;
     transition: transform 200ms;
+    align-items: center;
 }
 
 .reserver button:hover {
@@ -42,3 +43,11 @@
   transition: transform 200ms;
 }
 
+
+
+.reserver{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
