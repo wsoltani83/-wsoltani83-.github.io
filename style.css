@@ -1,3 +1,4 @@
+@charset "UTF-8";
 footer {
   background-color: #353535;
   padding: 1rem 2rem;
@@ -67,6 +68,27 @@ footer :any-link {
   margin-top: 1rem;
   cursor: pointer;
   transition: transform 200ms;
+}
+
+header {
+  font-weight: bold;
+  align-items: center;
+  font-family: "Shrikhand", cursive;
+  text-align: center;
+}
+header h1 {
+  align-items: center;
+}
+
+.fleche, .tête__flèche--vide {
+  width: 18px;
+  height: 20px;
+  left: 1rem;
+  top: 1rem;
+  display: inline-block;
+  transform: translateY(-50%);
+  font-size: 20px;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */

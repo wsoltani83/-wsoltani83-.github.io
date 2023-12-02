@@ -1,0 +1,32 @@
+header {
+    font-weight: bold;
+    align-items: center;
+    font-family: "Shrikhand", cursive;
+    text-align: center;
+    
+    h1{
+        align-items: center;
+    
+    }
+    
+    }
+    
+    
+    .fleche, .tête__flèche--vide {
+        width: 18px;
+        height: 20px;
+    
+        left: 1rem;
+        top: 1rem;
+    
+        display: inline-block;
+    
+     
+     
+    
+        transform: translateY(-50%);
+        font-size: 20px;
+    
+        position: absolute;
+        // transition: transform 200ms;
+      }
