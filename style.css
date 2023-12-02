@@ -91,4 +91,19 @@ header h1 {
   position: absolute;
 }
 
+.localisation {
+  align-items: center;
+  text-align: center;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  height: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.localisation i {
+  font-size: 1.25rem;
+}
+
 /*# sourceMappingURL=style.css.map */
