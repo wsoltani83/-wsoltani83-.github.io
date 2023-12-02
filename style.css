@@ -48,7 +48,7 @@ footer :any-link {
 
 .reserver button:hover {
   transform: scale(1.01);
-  background-color: #f9d477;
+  background-color: rgb(35, 45, 101);
 }
 
 .mainpetitmenu button {
@@ -56,7 +56,7 @@ footer :any-link {
 }
 
 .couleur button {
-  background-color: #f9d477;
+  background-color: rgb(35, 45, 101);
   margin-top: 1.5rem;
   color: rgb(255, 255, 255);
   font-weight: 300;
