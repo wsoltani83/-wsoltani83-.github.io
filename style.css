@@ -75,6 +75,8 @@ header {
   align-items: center;
   font-family: "Shrikhand", cursive;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 header h1 {
   align-items: center;
@@ -94,16 +96,40 @@ header h1 {
 .localisation {
   align-items: center;
   text-align: center;
-  background-color: #f3f3f3;
+  color: #ffffff;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   gap: 1rem;
   height: auto;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  padding-right: 0; /* Aucun padding à droite */
+  padding-left: 0; /* Aucun padding à gauche */
+  margin-left: 0;
+  border-left: 0;
 }
 .localisation i {
   font-size: 1.25rem;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.imgcarte, .carte {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  min-width: 3rem;
+  padding: 0;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
