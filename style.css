@@ -1,3 +1,31 @@
+footer {
+  background-color: #353535;
+  padding: 1rem 2rem;
+  color: white;
+  margin-top: 5rem;
+}
+footer h2 {
+  font-family: "Shrikhand", "sans-serif";
+  font-weight: 500;
+  padding: 1rem 0;
+}
+footer p {
+  padding: 0.2rem;
+}
 
+body .footer {
+  margin: 0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+footer {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+footer :any-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */
