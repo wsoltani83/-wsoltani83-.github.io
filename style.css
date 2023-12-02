@@ -124,12 +124,49 @@ body {
 }
 
 .imgcarte, .carte {
+  height: auto;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   min-width: 3rem;
   padding: 0;
   margin: 0;
+}
+
+.regroupement {
+  position: relative;
+}
+
+.imgcarte, .carte {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  min-width: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centrer les éléments de la navigation horizontalement */
+  background-color: rgba(0, 0, 0, 0.5); /* Un fond semi-transparent peut être ajouté pour une meilleure visibilité */
+  padding: 1rem 0; /* Ajoute un peu d'espacement en haut et en bas */
+}
+
+.navigation-top ul {
+  list-style: none; /* Enlève les puces de liste */
+  display: flex;
+  gap: 1rem; /* Espace entre les éléments de la liste */
+  padding: 0; /* Enlève le padding par défaut de la liste */
+  margin: 0; /* Enlève la marge par défaut de la liste */
+}
+
+.navigation-top a {
+  color: white; /* Couleur du texte des liens */
+  text-decoration: none; /* Enlève le soulignement des liens */
 }
 
 /*# sourceMappingURL=style.css.map */
