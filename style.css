@@ -28,4 +28,45 @@ footer :any-link {
   text-decoration: none;
 }
 
+.reserver button {
+  background-color: #c4992d;
+  margin-top: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 2px 1px 8px -3px #7e7e7e;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: transform 200ms;
+}
+
+.reserver button:hover {
+  transform: scale(1.01);
+  background-color: #f9d477;
+}
+
+.mainpetitmenu button {
+  align-items: center;
+}
+
+.couleur button {
+  background-color: #f9d477;
+  margin-top: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 2px 1px 8px -3px #7e7e7e;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: transform 200ms;
+}
+
 /*# sourceMappingURL=style.css.map */
