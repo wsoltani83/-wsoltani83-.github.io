@@ -176,4 +176,9 @@ body {
   text-decoration: none; /* Enlève le soulignement des liens */
 }
 
+.presentation .imgpresentation {
+  width: 150px;
+  height: 150px;
+}
+
 /*# sourceMappingURL=style.css.map */
