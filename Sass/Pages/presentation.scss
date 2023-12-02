@@ -6,3 +6,48 @@
     height: 150px;
 
 }
+
+.presentation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-top: 10rem;
+}
+
+.imgpresentation {
+    width: 100%; /* Assurez-vous que l'image couvre tout l'élément section */
+    height: auto; /* Maintient le rapport hauteur/largeur original de l'image */
+    object-fit: cover; /* S'assure que l'image couvre l'élément sans être déformée */
+}
+
+.content-overlay {
+    position: absolute;
+    top: 50%;
+    left: 5%; /* Ajuster selon la marge souhaitée */
+    transform: translateY(-50%); /* Centre verticalement le contenu */
+    color: #FFF; /* Texte blanc pour la visibilité */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour la lisibilité du texte */
+    padding: 2rem;
+    max-width: 50%; /* Ajuster selon la largeur souhaitée du texte */
+}
+
+.content-overlay h1 {
+    font-size: 2rem; /* Taille du titre */
+    margin-bottom: 1rem;
+}
+
+.content-overlay p {
+    font-size: 1rem; /* Taille du paragraphe */
+    margin-bottom: 1.5rem;
+}
+
+.content-overlay button {
+    font-size: 1rem; /* Taille du bouton */
+    padding: 0.5rem 1rem; /* Ajuster le padding selon les besoins */
+    background-color: #000; /* Couleur du fond du bouton */
+    color: #FFF; /* Texte du bouton en blanc */
+    border: none;
+    cursor: pointer;
+}
