@@ -18,10 +18,12 @@
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0; 
+    text-align: center;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
@@ -83,4 +85,31 @@ nav ul li a {
 .art-item h3 {
     margin-top: 0.5em;
     text-align: center; /* Centre le titre sous l'image */
+}
+
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack the links */
+        margin-right: 0; /* Remove margin between links */
+    }
+
+    nav ul li a {
+        display: block; /* Make the link fill its container */
+        padding: 10px; /* Add padding for touch targets */
+        border-bottom: 1px solid #ccc; /* Add a separator between links */
+    }
+
+    /* Optionally hide the last border */
+    nav ul li:last-child a {
+        border-bottom: none;
+    }
+
+    .art-grid {
+        grid-template-columns: 1fr; /* On small screens, use one column layout */
+    }
+
+    .art-item img {
+        height: auto; /* Make image height responsive */
+    }
 }

@@ -424,6 +424,7 @@ body {
 
 .imgcarte, .carte {
   width: 100%;
+  height: auto;
   -o-object-fit: cover;
   object-fit: cover;
   min-width: 3rem;
@@ -455,8 +456,8 @@ body {
 }
 
 .presentation .imgpresentation {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 500px;
 }
 
 .presentation {
@@ -465,7 +466,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: left;
-  padding-top: 10rem;
+  padding-top: 20rem;
 }
 
 .imgpresentation {
@@ -524,10 +525,12 @@ body {
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 nav ul li {
-  display: inline;
+  display: inline-block;
   margin-right: 20px;
 }
 
@@ -570,6 +573,87 @@ nav ul li a {
 .art-item h3 {
   margin-top: 0.5em;
   text-align: center; /* Centre le titre sous l'image */
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    display: block; /* Stack the links */
+    margin-right: 0; /* Remove margin between links */
+  }
+  nav ul li a {
+    display: block; /* Make the link fill its container */
+    padding: 10px; /* Add padding for touch targets */
+    border-bottom: 1px solid #ccc; /* Add a separator between links */
+  }
+  /* Optionally hide the last border */
+  nav ul li:last-child a {
+    border-bottom: none;
+  }
+  .art-grid {
+    grid-template-columns: 1fr; /* On small screens, use one column layout */
+  }
+  .art-item img {
+    height: auto; /* Make image height responsive */
+  }
+}
+.museum-news {
+  text-align: center;
+  padding: 20px;
+}
+
+.museum-news h2 {
+  font-size: 24px;
+  color: #444;
+}
+
+.museum-news p {
+  color: #666;
+}
+
+.museum-news img {
+  width: 80%; /* Adjust as necessary */
+  height: auto;
+}
+
+main h2 {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.text-columns {
+  column-count: 2;
+  column-gap: 40px;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: justify;
+  text-decoration: bold;
+}
+
+.text-columns p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* Media queries pour les appareils mobiles */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .text-columns {
+    column-count: 1; /* Une seule colonne sur les écrans étroits */
+  }
+  main h2 {
+    font-size: 18px; /* Augmenter la taille de police pour la lisibilité */
+  }
+  .text-columns p {
+    font-size: 14px; /* Ajuster la taille de police pour les appareils mobiles */
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

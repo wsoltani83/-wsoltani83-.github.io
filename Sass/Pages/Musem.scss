@@ -1,0 +1,64 @@
+.museum-news {
+    text-align: center;
+    padding: 20px;
+}
+
+.museum-news h2 {
+    font-size: 24px;
+    color: #444;
+}
+
+.museum-news p {
+    color: #666;
+}
+
+.museum-news img {
+    width: 80%; /* Adjust as necessary */
+    height: auto;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+main h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.text-columns {
+    column-count: 2;
+    column-gap: 40px;
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: justify;
+    text-decoration: bold;
+}
+
+.text-columns p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* Media queries pour les appareils mobiles */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .text-columns {
+        column-count: 1; /* Une seule colonne sur les écrans étroits */
+    }
+
+    main h2 {
+        font-size: 18px; /* Augmenter la taille de police pour la lisibilité */
+    }
+
+    .text-columns p {
+        font-size: 14px; /* Ajuster la taille de police pour les appareils mobiles */
+    }
+}
