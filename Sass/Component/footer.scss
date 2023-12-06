@@ -1,40 +1,87 @@
-footer {
+// footer {
     
-    background-color: #000000;
-    padding: 1rem 2rem;
-    color: white;
-    h2 {
-      font-family: "Shrikhand", "sans-serif";
-      font-weight: 500;
-      padding: 1rem 0;
-    }
-    p {
-      padding: 0.2rem;
-    }
+//     background-color: #e0c7a4;
+//     padding: 1rem 2rem;
+//     color: rgb(15, 15, 15);
+//     h2 {
+//       font-family: "Shrikhand", "sans-serif";
+//       font-weight: 500;
+//       padding: 1rem 0;
+//     }
+//     p {
+//       padding: 0.2rem;
+//     }
 
-    margin-top: 5rem;
+//     margin-top: 5rem;
 
     
-  }
+//   }
 
-body .footer
-{
-  margin: 0rem;
-  margin-left: 0rem;
-  margin-right: 0rem;
+// body .footer
+// {
+//   margin: 0rem;
+//   margin-left: 0rem;
+//   margin-right: 0rem;
   
+// }
+  
+
+// footer{
+//   text-decoration: none;
+//   color: rgb(0, 0, 0);
+//   :any-link {
+//     color: rgb(0, 0, 0);
+//     text-decoration: none;
+
+// }
+// }
+
+
+
+
+
+
+
+.footer {
+  background-color: #e0c7a4;
+  color: rgb(15, 15, 15);
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: start;
 }
-  
 
-footer{
+.footer-section {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  max-width: 100px; /* Adjust the size as needed */
+  margin-right: 2rem; /* Adds spacing between the logo and the text */
+}
+
+.footer-content h2, .footer-content .footer-menu p {
+  margin: 0;
+  padding: 0.2rem 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu p {
+  padding: 0.2rem 0;
+}
+
+.footer h2 {
+  font-family: "Shrikhand", "sans-serif";
+  font-weight: 500;
+  padding: 0.5rem 0;
+}
+
+.footer a {
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  color: rgb(255, 255, 255);
-  :any-link {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-
 }
-}
-
-
-

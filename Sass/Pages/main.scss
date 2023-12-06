@@ -14,7 +14,7 @@
 
 .imgcarte, .carte {
     width: 100%;
-    height: auto;
+    height: 680px;
     -o-object-fit: cover;
     object-fit: cover;
     min-width: 3rem;
@@ -27,14 +27,13 @@
     top: 0;
     width: 100%;
     display: flex;
-    
     justify-content: center; /* Centrer les éléments de la navigation horizontalement */
-    background-color: rgba(0, 0, 0, 0.5); /* Un fond semi-transparent peut être ajouté pour une meilleure visibilité */
+    background-color: #e0c7a4;
     padding: 1rem 0; /* Ajoute un peu d'espacement en haut et en bas */
 }
 
 .navigation-top ul {
-    list-style: none; /* Enlève les puces de liste */
+    list-style: none; 
     display: flex;
     gap: 1rem; /* Espace entre les éléments de la liste */
     padding: 0; /* Enlève le padding par défaut de la liste */
@@ -42,6 +41,6 @@
 }
 
 .navigation-top a {
-    color: white; /* Couleur du texte des liens */
+    color: rgb(0, 0, 0); /* Couleur du texte des liens */
     text-decoration: none; /* Enlève le soulignement des liens */
 }
