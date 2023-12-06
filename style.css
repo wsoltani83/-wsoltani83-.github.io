@@ -16,6 +16,8 @@
 .footer-logo img {
   max-width: 100px; /* Adjust the size as needed */
   margin-right: 2rem; /* Adds spacing between the logo and the text */
+  width: 80%;
+  height: 80%;
 }
 
 .footer-content h2, .footer-content .footer-menu p {
@@ -319,6 +321,11 @@ hr {
 .about-section p {
   text-align: justify;
   margin-bottom: 20px;
+}
+
+.about-section img {
+  width: 80%;
+  height: 100%;
 }
 
 .reserver button {
@@ -645,8 +652,8 @@ nav ul li a {
 }
 
 .museum-news img {
-  width: 80%; /* Adjust as necessary */
-  height: auto;
+  width: 80%;
+  height: 80%;
 }
 
 main h2 {
